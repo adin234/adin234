@@ -40,6 +40,7 @@
 			};
 
 			var path = window.location.pathname.replace(/\//g, '');
+			path = path.length ? path : 'index';
 			var xhr = new XMLHttpRequest();
 			xhr.open('GET', '/pages/'+path+'.html?'+(
 				location.href.indexOf('?') 
