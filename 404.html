@@ -5,6 +5,8 @@
 		<link rel="stylesheet" type="text/css" href="/assets/styles/global.css">
 		<link rel="stylesheet" type="text/css" href="/assets/styles/stream.css">
 		<link href="http://fonts.googleapis.com/css?family=Raleway:400,700,300" rel="stylesheet" type="text/css">
+
+
 		<script type="text/javascript">
 			var stripAndExecuteScript = function (text) {
 			    var scripts = '';
@@ -21,7 +23,7 @@
 
 			var path = window.location.pathname.replace(/\//g, '');
 			var xhr = new XMLHttpRequest();
-			xhr.open('GET', '/'+path+'.html?'+(
+			xhr.open('GET', '/pages/'+path+'.html?'+(
 				location.href.indexOf('?') 
 					? location.href.substr(location.href.indexOf('?')) 
 					: ''
