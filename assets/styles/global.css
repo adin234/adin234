@@ -117,7 +117,7 @@ a.tooltip span {
 	margin-bottom: 0px;
 }
 .share > .content{
-	background: url(/zh/images/index_share_middle.png) repeat-y;
+	background: url(/assets/images/index_share_middle.png) repeat-y;
 	height: 50px;
 }
 .share > .down{
@@ -237,7 +237,7 @@ a.tooltip span {
 	background-attachment: scroll;
 	background-clip: border-box;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(http://54.255.176.250/zh/images/index.png);
+	background-image: url(/assets/images/index.png);
 	background-origin: padding-box;
 	background-position: -57px -40px;
 	background-size: auto;
