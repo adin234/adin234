@@ -4,7 +4,7 @@ var sanitizeTwitch = function(e) {
 		return e[e.length - 1];
 };
 var user;
-ajax.get('http://localhost:3000/user/'+params.user, {}, function(e) {
+ajax.get('http://'+server+'user/'+params.user, {}, function(e) {
 	user = e;
 	var twitch = sanitizeTwitch(e.custom_fields.twitchStreams);
 	document.getElementById('twitchChat').src = 'http://twitch.tv/'+twitch+'/chat?popout=';
