@@ -43,18 +43,6 @@
 	width: 100%;
 	z-index: 1;
 }
-body {
-	background: rgb(0,0,0) url(/assets/images/bg3.png)no-repeat top;
-	background-size: 100%;
-}
-.gamers-content {
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	padding: 20px;
-	position: relative;
-	background: rgba(0,0,0,0.7);
-}
 .bottom-container .rightContainer {
 	padding-left: 10px;
 	box-sizing: border-box;

@@ -1,0 +1,159 @@
+.gamers-content {
+	width: 910px;
+	margin: 50px auto;
+	-webkit-box-shadow: 0px 1px 50px 5px #00e1ff;
+	-moz-box-shadow: 0px 1px 50px 5px #00e1ff;
+	-khtml-box-shadow: 0px 1px 50px 5px #00e1ff;
+	-webkit-box-shadow: 0px 1px 50px 5px #00e1ff;
+	-moz-box-shadow: 0px 1px 50px 5px #00e1ff;
+	-khtml-box-shadow: 0px 1px 50px 5px #00e1ff;
+	box-shadow: 0px 1px 50px 5px #00e1ff;
+}
+.container .sidebar {
+	float:right;
+}
+.stream-list {
+	float: left;
+	width: 635px;
+}
+.container .extra-container {
+	text-align: right;
+	display: block;
+	margin-top:-20px;
+}
+.bigframe {
+	background: url(/assets/images/bigframe/middle.png);
+	min-height: 250px;
+	width: 628px;
+	position: relative;
+}
+.bigframe .top {
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(/assets/images/bigframe/top.png);
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(92, 132, 147);
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(92, 132, 147);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(92, 132, 147);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(92, 132, 147);
+	border-top-style: none;
+	border-top-width: 0px;
+	box-sizing: border-box;
+	color: rgb(92, 132, 147);
+	display: block;
+	font-family: Arial, Verdana, 微軟正黑體;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	height: 124px;
+	line-height: 25px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 21px;
+	padding-left: 21px;
+	padding-right: 21px;
+	padding-top: 21px;
+	top: 0px;
+	width: 628px;
+	zoom: 1;
+}
+.bigframe .bottom {
+	-webkit-background-clip: border-box;
+	-webkit-background-origin: padding-box;
+	-webkit-background-size: auto;
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: url(/assets/images/bigframe/bot.png);
+	background-origin: padding-box;
+	background-size: auto;
+	border-bottom-color: rgb(0, 0, 0);
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-image-outset: 0px;
+	border-image-repeat: stretch;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-image-width: 1;
+	border-left-color: rgb(0, 0, 0);
+	border-left-style: none;
+	border-left-width: 0px;
+	border-right-color: rgb(0, 0, 0);
+	border-right-style: none;
+	border-right-width: 0px;
+	border-top-color: rgb(0, 0, 0);
+	border-top-style: none;
+	border-top-width: 0px;
+	bottom: 0px;
+	box-sizing: border-box;
+	color: rgb(0, 0, 0);
+	display: block;
+	font-family: Arial, Verdana, 微軟正黑體;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 119px;
+	line-height: 16px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	width: 628px;
+	zoom: 1;
+}
+.listInline.avatarHeap{
+	text-align: center;
+}
+li.stream {
+	display: inline-block;
+	margin: 5px;
+}
+
+li.stream a {
+	width: 180px;
+	display: block;
+	text-decoration: none;
+}
+li.stream a .preview-image {
+	margin-bottom: 5px;
+}
+
+li.stream a .preview-image img {
+	width: 100%;
+}
+
+.stream > a .label {
+	color: #7E7E7E;
+	font-size: 13px;
+}
+
+.stream .game, .stream .streamer {
+	display: block;
+	text-align: center;
+	color: red;
+	font-size: 13px;
+}

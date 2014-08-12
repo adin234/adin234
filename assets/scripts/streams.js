@@ -18,6 +18,7 @@ ajax.get(server+'user/'+params.user, {}, function(e) {
 	document.getElementById('sat').getElementsByClassName('sched-detail')[0].innerHTML = e.custom_fields.saturdaySchedule;
 	document.getElementById('sun').getElementsByClassName('sched-detail')[0].innerHTML = e.custom_fields.sundaySchedule;
 	document.getElementById('ads-container').innerHTML = e.custom_fields.advertisement;
+	document.getElementById('youtubelink').href = 'http://www.youtube.com/channel/'+e.custom_fields.youtube_id;
 	loadJs('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', function() {
 		(adsbygoogle = window.adsbygoogle || []).push({});
 	});

@@ -1,0 +1,107 @@
+<link rel="stylesheet" type="text/css" href="/assets/styles/stream-list.css">
+<style type="text/css">
+	.aboutPairs {
+		padding: 0 40px;
+	}
+	.aboutPairs p {
+		margin-bottom: 5px;
+	}
+</style>
+<header class="navigation">
+	<div class="content">
+		<div class="logo">
+			<img src="/assets/images/logo.png" />
+		</div>
+		<ul class="nav">
+			<li class="nav-item">
+				<a href="/index" class="active">回首頁</a>
+			</li>
+			<li class="nav-item">
+				<a href="http://www.youtube.com/mcnfreedom">新聞</a>
+			</li>
+			<li class="nav-item">
+				<a href="http://community.gamers.tm">論譠</a>
+			</li>
+			<li class="nav-item">
+				<a href="/streams">直播列表</a>
+			</li>
+		</ul>
+	</div>
+</header>
+<section class="gamers-content">
+	<div class="container clearfix">
+		<div class="stream-list">
+			<div class="extra-container">
+				<img src="/assets/images/extra.png" class="extra" />
+			</div>
+			<div class="bigframe">
+				<div class="top"><h3>Freedom!在此感謝大家對電玩咖的熱愛! </h3></div>
+				<div class="pairsColumns aboutPairs isrelative aboutContent avatarContent" style="margin-top: -55px; min-height: 445px; color: #fff;
+padding: 0 40px;">
+					<p>在這一週網站的測試和取得玩家的建議下，我們為了提供並結合所有玩家更好和更多的需求，除了留下直播和論譠的功能外，網站將整個重新整合出一個更穩定和更完善的服務!</p>
+					<p>維修過程中也會不斷借由論譠和QK所主持的新聞影片來給您第一線的實況主及實況咖最新消息!</p>
+					<p>同時為表深感歉意讓各位等待，歡迎將所有的怒氣發洩並把網站直接摧毀!</p>
+					<p>請各位視目以待Freedom!即將再此呈獻的最優質實況主網站! 謝謝您的支持 :-)</p>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<a class="join_us" href="http://zh.freedom.tm/" title="加入我們"></a>
+			<div class="fb" id="facebookSection">
+				<div class="top"> </div>
+				<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+				<div class="content">
+					<div id="fb-root"></div>
+						<script>(function(d, s, id) {
+						  var js, fjs = d.getElementsByTagName(s)[0];
+						  if (d.getElementById(id)) return;
+						  js = d.createElement(s); js.id = id;
+						  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+						  fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));</script>
+					
+					<div class="facebookOuter">
+						
+						<div class="fb-like-box" data-href="https://www.facebook.com/mcnFreedomAsia" data-width="250" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
+					</div>
+				</div>
+				<div class="down"></div>
+			</div>
+			<div class="share">
+				<div class="top"> </div>
+				<div class="content" style="height: initial">
+					<a href="#" class="tooltip" onclick="window.open(&quot;http://www.facebook.com/sharer/sharer.php?u=http://54.255.176.250/zh/&quot;, &quot;_blank&quot;, &quot;toolbar=yes, scrollbars=yes, resizable=yes, width=600, height=500&quot;); return false;" id="facebookShareTrigger">
+					    <div id="fake_facebook_button" style="width: 50px; height: 50px;"></div>
+					    <span>
+					        <img class="callout" src="http://www.menucool.com/tooltip/src/callout.gif">
+					        <text class="count">0</text>
+					    </span>
+					</a>
+					<a href="#" class="tooltip" onclick="window.open(&quot;https://plus.google.com/share?url=http://54.255.176.250/zh/&quot;, &quot;_blank&quot;, &quot;toolbar=yes, scrollbars=yes, resizable=yes, width=550, height=500&quot;); return false;" id="googleShareTrigger">
+						<div id="fake_gplus_button" style="width: 50px; height: 50px;"></div>
+						<span>
+					        <img class="callout" src="http://www.menucool.com/tooltip/src/callout.gif">
+					        <text class="count">0</text>
+					    </span>
+					</a>
+				</div>
+				<div class="down"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<template id="streamTpl">
+	<li class="stream">
+		<a href="/streams-page?user={{USERID}}" data-id="{{TWITCH}}" data-user="{{USERNAME}}.{{USERID}}">
+				<div class="preview-image">
+					<img src="{{PREVIEW}}">
+				</div>
+				<span class="game"><span class="label">遊戲:</span> {{GAME}}</span>
+				<span class="streamer"><span class="label">會員:</span> {{USERNAME}}</span>
+			</a>
+	</li>
+</template>
+<script type="text/javascript" src="/assets/scripts/util.js"></script>
+<script type="text/javascript" src="/assets/scripts/share.js"></script>
+<script type="text/javascript" src="/assets/scripts/stream-list.js"></script>
