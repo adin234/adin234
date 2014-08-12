@@ -21,7 +21,7 @@
 
 			var path = window.location.pathname.replace(/\//g, '');
 			var xhr = new XMLHttpRequest();
-			xhr.open('GET', '/'+path+'.html?'+(
+			xhr.open('GET', '/pages/'+path+'.html?'+(
 				location.href.indexOf('?') 
 					? location.href.substr(location.href.indexOf('?')) 
 					: ''
